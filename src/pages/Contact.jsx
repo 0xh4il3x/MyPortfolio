@@ -45,7 +45,7 @@ const Contact = () => {
         <input type="hidden" name="form-name" value="contact-form" />
         <div className="hidden">
           <label>
-            Don’t fill this out: <input name="bot-field" />
+            Don’t fill this out: <input type="hidden" name="bot-field" />
           </label>
         </div>
 
