@@ -39,8 +39,7 @@ const Contact = () => {
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         className="p-6 space-y-4 mt-30"
-        onSubmit={handleSubmit}
-        action="/thankyou" // Attach handleSubmit to the form's onSubmit
+        onSubmit={handleSubmit} // Attach handleSubmit to the form's onSubmit
       >
         {/* Hidden field for Netlify honeypot */}
         <input type="hidden" name="form-name" value="contact-form" />
