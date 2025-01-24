@@ -5,7 +5,6 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
-import Success from "./pages/Success";
 
 // Create a Context for the theme
 export const ThemeContext = createContext();
@@ -23,7 +22,6 @@ const App = () => {
               <Route path="/" element={<Home />} />
               <Route path="/projects" element={<Projects />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/success" element={<Success />} />
             </Routes>
           </main>
           <Footer />
