@@ -166,11 +166,11 @@ const Contact = () => {
       </div>
       <form
         name="contact"
-        data-netlify="true"
+        action="/success"
         method="POST"
         className="p-6 space-y-4 mt-30"
-      >
-        <input type="hidden" name="redirect" value="/success" />
+      > 
+        <input type="hidden" name="form-name" value="contact" />
         <div
           className={`${
             darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"
