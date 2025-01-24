@@ -6,3 +6,14 @@ body{
     background: #0f172a;
     color: white;
 }
+
+.testimonial-slider {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+  }
+  
+  .testimonial-slider > div {
+    transition: transform 0.5s ease-in-out;
+  }
+  

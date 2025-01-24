@@ -5,7 +5,7 @@ const TestimonialCard = ({ name, quote, image }) => (
     initial={{ opacity: 0, scale: 0.9 }}
     animate={{ opacity: 1, scale: 1 }}
     transition={{ duration: 0.7, ease: "easeOut" }}
-    className="border p-6 rounded-xl bg-gradient-to-r from-purple-600 via-blue-500 to-indigo-500 text-white shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out"
+    className="p-6 rounded-xl bg-gradient-to-r from-purple-500 via-blue-800 to-indigo-700 text-white shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 ease-in-out"
   >
     <div className="flex items-center mb-6">
       <img
