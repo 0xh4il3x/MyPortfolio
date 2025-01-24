@@ -167,19 +167,13 @@ const Contact = () => {
       <form
         name="contact"
         method="POST"
-        action="/thank-you.html" // Redirect to this page after submission
+        action="/success"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         className="p-6 space-y-4 mt-30"
       >
         {/* Hidden field for Netlify honeypot */}
-        <input type="hidden" name="form-name" value="contact" />
-        <div className="hidden">
-          <label>
-            Don’t fill this out: <input type="hidden" name="bot-field" />
-          </label>
-        </div>
-
+        <input type="hidden" name="name" value="contact" />
         <div
           className={`${
             darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"
