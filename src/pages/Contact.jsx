@@ -69,24 +69,28 @@ const Contact = () => {
         <a
           href="https://twitter.com/Sahle_H"
           className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
+          target="_blank"
         >
           <i className="fab fa-twitter text-2xl"></i>
         </a>
         <a
           href="https://t.me/lbfwbs"
           className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
+          target="_blank"
         >
           <i className="fab fa-telegram-plane text-2xl"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/haileamlak-sahle-80986b269"
           className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
+          target="_blank"
         >
           <i className="fab fa-linkedin text-2xl"></i>
         </a>
         <a
           href="https://www.instagram.com/hailemlak.sahle"
           className="text-blue-500 hover:text-blue-700 transition duration-300 ease-in-out"
+          target="_blank"
         >
           <i className="fab fa-instagram text-2xl"></i>
         </a>
