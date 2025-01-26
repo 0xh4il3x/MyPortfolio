@@ -4,6 +4,8 @@ import AboutSection from "../components/AboutSection";
 import SkillCard from "../components/SkillCard";
 import TestimonialCard from "../components/TestimonialCard";
 import haile from "../assets/haile.jpg";
+import lidetu from "../assets/lidetu.jpg";
+import abinet from "../assets/abinet.jpg";
 
 const Home = () => {
   const { darkMode } = useContext(ThemeContext);
@@ -23,23 +25,23 @@ const Home = () => {
 
   const testimonials = [
     {
-      name: "First Guy to Comment",
-      quote: `Haileamlak Sahle is a motivated and skilled aspiring cybersecurity professional. His enthusiasm for ethical hacking and continuous learning shows his potential to excel in the industry. He is definitely one to watch.`,
-      image: haile,
+      name: "Abinet Degefe, IS student",
+      quote: `This guy's got a real passion for cybersecurity and is always on top of the latest challenges. He approaches every problem with determination, and his skills are growing fast. You can always count on him to dive deep and find a solution!`,
+      image: abinet,
     },
     {
-      name: "Second Guy to Comment",
-      quote: `Haileamlak Sahle is a dedicated and passionate aspiring cybersecurity professional. His technical skills and commitment to learning set him apart. He has the potential to make a significant impact in the cybersecurity field.`,
-      image: haile,
+      name: "Lidetu Tadesse, IS student",
+      quote: `Haileamlak is the digital Sherlock Holmes, always sniffing out vulnerabilities and cracking codes (legally, of course!). Witnessing his journey into cybersecurity has been like watching a thrilling tech-noir movie. Keep up the awesome work, hacker extraordinaire!`,
+      image: lidetu,
     },
     {
       name: "Third Guy to Comment",
-      quote: `Haileamlak Sahle is a dedicated and passionate aspiring cybersecurity professional. His technical skills and commitment to learning set him apart. He has the potential to make a significant impact in the cybersecurity field.`,
+      quote: `This dude is incredibly dedicated and driven. His passion for cybersecurity is unmatched, and I know he'll go far in his career. It's inspiring to see his commitment to learning and growing every day.`,
       image: haile,
     },
     {
       name: "Fourth Guy to Comment",
-      quote: `Haileamlak Sahle is a dedicated and passionate aspiring cybersecurity professional. His technical skills and commitment to learning set him apart. He has the potential to make a significant impact in the cybersecurity field.`,
+      quote: `Haileamlak is a dedicated and passionate aspiring cybersecurity professional. His technical skills and commitment to learning set him apart. He has the potential to make a significant impact in the cybersecurity field.`,
       image: haile,
     },
   ];
@@ -75,13 +77,12 @@ const Home = () => {
           ))}
         </div>
       </div>
-
           {/* Testimonials Section */}
       <div className="mt-32 relative" id="testimonials">
         <h2 className="text-2xl font-bold mt-8 text-center italic mb-6">
           Testimonials
         </h2>
-        <div className="relative flex flex-col items-center justify-center min-h-[500px] md:min-h-[400px] px-4 space-y-6">
+        <div className="relative flex flex-col items-center justify-center min-h-[500px] md:min-h-[300px] px-4 space-y-6">
           {/* Testimonial Card */}
           <div className="w-full md:w-3/4 flex items-center justify-center">
             <TestimonialCard

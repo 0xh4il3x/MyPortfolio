@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div>
       <div className="text-center mt-10">
-        <h1 className="text-4xl font-bold">Contact Me</h1>
+        <h1 className="text-4xl font-serif">Contact Me</h1>
         <p className="text-blue-600 italic text-2xl mt-5">
           haileamlaksahle<span className="font-sans font-semibold size-64">@</span>gmail.com
         </p>
@@ -27,6 +27,8 @@ const Contact = () => {
             darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"
           } flex items-center justify-center w-full md:w-2/3 mx-auto flex-col border-none`}
         >
+          <div className="flex items-center gap-x-4 justify-center w-full">
+          <i class="fa-regular fa-user"></i>
           <input
             type="text"
             name="name"
@@ -36,7 +38,10 @@ const Contact = () => {
               darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"
             } p-2 w-full outline-none border border-b-blue-600 border-l-0 border-r-0 border-t-0`}
           />
-          <input
+          </div>
+         <div className="flex items-center gap-x-4 justify-center w-full">
+         <i class="fa-regular fa-envelope"></i>
+         <input
             type="email"
             name="email"
             placeholder="Your Email"
@@ -45,7 +50,11 @@ const Contact = () => {
               darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"
             } p-3 w-full outline-none border border-b-blue-600 border-l-0 border-r-0 border-t-0`}
           />
+         </div>
+          <div className="flex items-center gap-x-4 justify-center w-full">
+          <i class="fa-regular fa-message"></i>
           <textarea
+            maxLength="500"
             name="message"
             placeholder="Your Message"
             required
@@ -53,6 +62,8 @@ const Contact = () => {
               darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"
             } p-3 w-full outline-none border border-b-blue-600 border-l-0 border-r-0 border-t-0`}
           />
+          </div>
+          
         </div>
         <div className="flex items-center justify-center">
           <button

@@ -51,9 +51,9 @@ const ProjectCard = ({ id, title, description, link}) => {
   };
 
   return (
-    <div className={`${ darkMode? "bg-gray-200 text-black" : "bg-slate-900 text-gray-500"} border border-blue-500 p-6 rounded-xl shadow-lg hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105`}>
-      <h3 className="text-2xl font-semibold text-white mb-4">{title}</h3>
-      <p className="text-slate-300 text-base mb-6 leading-relaxed">
+    <div className={`${ darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"} border border-blue-500 p-6 rounded-xl shadow-lg hover:shadow-blue-500/50 transition-all duration-300 transform hover:scale-105 md:w-5/6`}>
+      <h3 className={`${darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"} text-2xl font-semibold mb-4`}>{title}</h3>
+      <p className={`${darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"} text-base mb-6 leading-relaxed`}>
         {description}
       </p>
       <div className="flex flex-row items-center justify-between">
@@ -72,7 +72,7 @@ const ProjectCard = ({ id, title, description, link}) => {
           >
             <i className="fa-solid fa-thumbs-up"></i>
           </button>
-          <span className="ml-3 text-white">{likes} Likes</span>
+          <span className={`ml-3 ${darkMode ? "text-black" : "text-white"}`}>{likes} Likes</span>
         </div>
       </div>
     </div>

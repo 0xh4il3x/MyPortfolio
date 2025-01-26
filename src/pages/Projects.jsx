@@ -19,8 +19,8 @@ const Projects = () => {
         darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"
       }`}
     >
-      <h2 className="text-2xl font-bold">My Projects</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
+      <h2 className="text-2xl font-bold text-center md:mb-10">Featured Projects</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-y-6 md:gap-x-0 mt-4 place-items-center">
         {repos.map((repo) => (
           <ProjectCard
             key={repo.id}

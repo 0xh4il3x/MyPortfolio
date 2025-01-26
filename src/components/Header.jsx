@@ -6,12 +6,12 @@ const Header = () => {
 
   return (
     <header
-      className={`p-4 border-b-slate-200 flex justify-between py-4 ${
+      className={`p-4 border-b-slate-200 flex justify-between py-4 flex-wrap md:flex-nowrap gap-y-4 md:gap-y-0 ${
         darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"
       }`}
     >
       <h1 className="text-2xl font-bold italic hidden md:block text-blue-400">H@il34mlak</h1>
-      <div className="font-bold text-xl flex justify-around items-center space-x-4">
+      <div className="font-bold text-xl flex md:flex-nowrap flex-wrap justify-around items-center space-x-4 gap-y-4 md:gap-y-0">
         <a
           href="/"
           className="hover:decoration-red-400 transition duration-500 ease-in-out hover:text-blue-700"

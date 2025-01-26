@@ -2,9 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+  box-sizing: border-box;
+}
+
 body{
     background: #0f172a;
     color: white;
+    overflow-x: hidden;
+    margin: 0;
 }
 
 .testimonial-slider {

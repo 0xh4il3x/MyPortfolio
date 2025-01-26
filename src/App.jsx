@@ -15,7 +15,9 @@ const App = () => {
   return (
     <ThemeContext.Provider value={{ darkMode, setDarkMode }}>
       <Router>
-        <div className={darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"}>
+        <div className={`min-h-screen w-full overflow-x-hidden transition-colors duration-300 ${
+    darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"
+    }`}>
           <Header />
           <main className="p-4">
             <Routes>
