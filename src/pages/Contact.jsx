@@ -9,7 +9,7 @@ const Contact = () => {
       <div className="text-center mt-10">
         <h1 className="text-4xl font-serif">Contact Me</h1>
         <p className="text-blue-600 italic text-2xl mt-5">
-          haileamlaksahle<span className="font-sans font-semibold size-64">@</span>gmail.com
+          haileamlak323<span className="font-sans font-semibold size-64">@</span>gmail.com
         </p>
         <p className="font-light italic mt-5">
           Feel free to reach me with any questions!
