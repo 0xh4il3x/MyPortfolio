@@ -11,9 +11,9 @@ const Home = () => {
   const { darkMode } = useContext(ThemeContext);
 
   const skills = [
-    { skill: "React", level: 60 },
-    { skill: "TailwindCSS", level: 60 },
-    { skill: "JavaScript", level: 60 },
+    { skill: "React", level: 50 },
+    { skill: "TailwindCSS", level: 50 },
+    { skill: "JavaScript", level: 50 },
     { skill: "Penetration Testing", level: 50 },
     { skill: "Reverse Engineering", level: 40 },
     { skill: "Metasploit", level: 50 },
