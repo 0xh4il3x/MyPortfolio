@@ -63,7 +63,7 @@ const Home = () => {
       }`}
     >
       <AboutSection />
-      <div id="skills" className="w-full md:w-3/4 items-center justify-center mx-auto">
+      <div id="skills" className="w-full md:w-4/5 items-center justify-center mx-auto">
         <h2 className="text-2xl font-bold mt-8 text-center mb-16 italic">
           My Skills
         </h2>

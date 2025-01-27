@@ -16,7 +16,7 @@ export default {
         },
       },
       animation: {
-        typing: 'typing 6s steps(20, end) infinite, blink 0.9s step-end infinite',
+        // typing: 'typing 6s steps(20, end) infinite, blink 0.9s step-end infinite',
       },
       scrollBehavior: {
         smooth: 'smooth',

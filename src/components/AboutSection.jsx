@@ -9,7 +9,7 @@ const AboutSection = () => (
     />
     <div className="w-full md:w-1/2 mt-6 md:mt-0 md:ml-12 text-center md:text-left">
       <div className="text-2xl font-bold text-blue-500 mb-4">
-        <span className="inline-block overflow-hidden whitespace-nowrap border-r-2 border-blue-500 xl:animate-typing">
+        <span className="inline-block overflow-hidden whitespace-nowrap border-blue-500">
         Hello! I'm Haileamlak Sahle
         </span>
       </div>
