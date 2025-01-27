@@ -6,6 +6,7 @@ import TestimonialCard from "../components/TestimonialCard";
 import haile from "../assets/haile.jpg";
 import lidetu from "../assets/lidetu.jpg";
 import abinet from "../assets/abinet.jpg";
+import surage from "../assets/surage.jpg";
 
 const Home = () => {
   const { darkMode } = useContext(ThemeContext);
@@ -30,19 +31,14 @@ const Home = () => {
       image: abinet,
     },
     {
-      name: "Lidetu Tadesse, IS student",
+      name: "Surage Sahle, Cybersecurity Professional",
       quote: `Haileamlak is the digital Sherlock Holmes, always sniffing out vulnerabilities and cracking codes (legally, of course!). Witnessing his journey into cybersecurity has been like watching a thrilling tech-noir movie. Keep up the awesome work, hacker extraordinaire!`,
-      image: lidetu,
+      image: surage,
     },
     {
-      name: "Third Guy to Comment",
+      name: "Lidetu, IS student",
       quote: `This dude is incredibly dedicated and driven. His passion for cybersecurity is unmatched, and I know he'll go far in his career. It's inspiring to see his commitment to learning and growing every day.`,
-      image: haile,
-    },
-    {
-      name: "Fourth Guy to Comment",
-      quote: `Haileamlak is a dedicated and passionate aspiring cybersecurity professional. His technical skills and commitment to learning set him apart. He has the potential to make a significant impact in the cybersecurity field.`,
-      image: haile,
+      image: lidetu,
     },
   ];
 
