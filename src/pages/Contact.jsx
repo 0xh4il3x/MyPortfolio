@@ -31,7 +31,7 @@ const Contact = () => {
         <div
           className={`${
             darkMode ? "bg-gray-200 text-black" : "bg-slate-900 text-white"
-          } flex items-center justify-center w-full md:w-2/3 mx-auto flex-col border-none`}
+          } flex items-center justify-center w-full md:w-2/3 xl:w-1/2 mx-auto flex-col border-none`}
         >
           <div className="flex items-center gap-x-4 justify-center w-full">
           <i class="fa-regular fa-user"></i>
