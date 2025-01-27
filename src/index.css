@@ -23,3 +23,17 @@ body{
     transition: transform 0.5s ease-in-out;
   }
   
+
+  @layer utilities {
+    @media (min-width: 573px) and (max-width: 780px) {
+      .btn-custom {
+        height: 2.5rem; 
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 0.875rem;
+        margin-top: 0; 
+      }
+    }
+  }

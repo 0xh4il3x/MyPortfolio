@@ -38,13 +38,13 @@ const Header = () => {
         </a>
         <a
           href="#testimonials"
-          className="hover:decoration-red-400 transition duration-500 ease-in-out hover:text-blue-700"
+          className="hover:decoration-red-400 transition duration-500 ease-in-out hover:text-blue-700 w-full md:w-auto"
         >
           Testimonials
         </a>
       </div>
       <button
-        className="ml-4 px-6 py-2 rounded-full border border-blue-700 hover:text-blue-700 transition duration-500 ease-in-out"
+        className=" btn-custom ml-auto md:ml-0 -mt-10 md:mt-0 px-3 py-1 md:px-4 md:py-2 lg:px-6 rounded-full border text-center border-blue-700 hover:text-blue-700 transition duration-500 ease-in-out"
         onClick={() => setDarkMode(!darkMode)}
       >
         {darkMode ? "Dark Mode" : "Light Mode"}

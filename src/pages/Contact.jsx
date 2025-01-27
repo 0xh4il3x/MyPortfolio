@@ -8,13 +8,13 @@ const Contact = () => {
     <div>
       <div className="text-center mt-10">
         <h1 className="text-4xl font-serif">Contact Me</h1>
-        <p className="italic sm:text-xl text-2xl mt-3 font-light">
+        <p className="italic text-lg lg:text-xl font-light mt-6">
          Email:  haileamlak323<span className="font-sans font-semibold size-64">@</span>gmail.com
         </p>
-        <p className="italic sm:text-xl text-2xl mt-3 font-light ">
+        <p className="italic text-lg lg:text-xl mt-3 font-light ">
          Address: Addis Ababa, Ethiopia
         </p>
-        <p className="italic sm:text-xl text-2xl mt-3 font-light">
+        <p className="italic text-lg lg:text-xl mt-3 font-light">
          Phone: +251 712 598 161
         </p>
         <p className="font-light italic mt-12">
