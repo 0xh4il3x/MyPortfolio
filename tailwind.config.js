@@ -21,6 +21,9 @@ export default {
       scrollBehavior: {
         smooth: 'smooth',
       },
+      colors: {
+        muted: '#adb5bd', 
+      },
     },
   },
   plugins: [],

@@ -67,10 +67,11 @@ const Home = () => {
       }`}
     >
       <AboutSection />
-      <div id="skills">
+      <div id="skills" className="w-full md:w-3/4 items-center justify-center mx-auto">
         <h2 className="text-2xl font-bold mt-8 text-center mb-16 italic">
           My Skills
         </h2>
+        <p className="text-center text-lg italic font-normal font-sans md:mb-10">Here are my technical skills along with their proficiency levels</p>        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
           {skills.map((item, index) => (
             <SkillCard key={index} skill={item.skill} level={item.level} />
