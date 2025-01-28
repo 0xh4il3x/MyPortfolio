@@ -36,7 +36,7 @@ const Home = () => {
       image: surage,
     },
     {
-      name: "Lidetu, IS student",
+      name: "Lidetu Tadesse, IS student",
       quote: `This dude is incredibly dedicated and driven. His passion for cybersecurity is unmatched, and I know he'll go far in his career. It's inspiring to see his commitment to learning and growing every day.`,
       image: lidetu,
     },
